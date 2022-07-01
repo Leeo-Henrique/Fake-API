@@ -36,9 +36,9 @@ POST /products <br/>
 
 Criando um produto <br/>
 {
-"product_Name": "Hamburguer",
-"price": 20,
-"userId": Id user registrado,
+"product_Name": "Pizza mussarela",<br/>
+"price": 20,<br/>
+"userId": Id user registrado,<br/>
 "image":"https://static7.depositphotos.com/1011415/743/v/600/depositphotos_7438540-stock-illustration-cheeseburger.jpg"
 }
 
@@ -47,9 +47,9 @@ Editando um produto existente <br/>
 
 PATCH /products/IDPRODUTO <br/>
 {
-"product_Name": "Pizza mussarela",
-"price": 36,
-"userId": Id user registrado,
+"product_Name": "Pizza mussarela",<br/>
+"price": 36,<br/>
+"userId": Id user registrado,<br/>
 "image":"https://static7.depositphotos.com/1011415/743/v/600/depositphotos_7438540-stock-illustration-cheeseburger.jpg"
 }
 
