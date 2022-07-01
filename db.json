@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "age": 38,
+      "id": 1
+    },
+    {
+      "email": "Leo@mail.com",
+      "password": "$2a$10$sGsZzWJ1qPY3w9A449cCAO03eB6hvOPpQFB8n26NbkGV1tE.liUtm",
+      "name": "Leonardo Henrique",
+      "age": "130",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "product_Name": "Hamburguer",
+      "price": 20,
+      "userId": 2,
+      "image": "https://static7.depositphotos.com/1011415/743/v/600/depositphotos_7438540-stock-illustration-cheeseburger.jpg",
+      "id": 1
+    }
+  ]
+}
