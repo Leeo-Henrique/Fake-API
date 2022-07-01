@@ -73,7 +73,9 @@ Todos os produtos<br/>
 {
   "auth": "Bearer"
 }
-
+```
+`Return `
+```json
 {
   "product_Name": "Pizza mussarela",
   "price": 20,
