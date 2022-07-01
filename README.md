@@ -4,7 +4,7 @@ Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configur
 
 ## Endpoints
 
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
+`https://app-namezika.herokuapp.com/`
 
 ### Cadastro
 
@@ -43,10 +43,9 @@ Criando um produto <br/>
 }
 ```
 
-PATCH /products/IDPRODUTO <br/>
 Editando um produto existente <br/>
 
-PATCH /products/IDPRODUTO <br/>
+`PATCH /products/IDPRODUTO`
 
 ```json
 {
@@ -68,7 +67,7 @@ Deletar um produto
 ```
 
 Todos os produtos
-GET /products <br/>
+`GET /products `
 
 ```json
 {
