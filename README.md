@@ -31,38 +31,47 @@ DELETE /products/IDPRODUTO
 
 A rota produto o cliente deve conter um token de autenticaçao,
 
-POST /products <br/>
-POST /products <br/>
-
 Criando um produto <br/>
+`POST /products `
+
+```json
 {
-"product_Name": "Pizza mussarela",<br/>
-"price": 20,<br/>
-"userId": Id user registrado,<br/>
-"image":"https://static7.depositphotos.com/1011415/743/v/600/depositphotos_7438540-stock-illustration-cheeseburger.jpg"
+  "product_Name": "Pizza mussarela",
+  "price": 20,
+  "userId": "Id user registrado",
+  "image": "https://static7.depositphotos.com/1011415/743/v/600/depositphotos_7438540-stock-illustration-cheeseburger.jpg"
 }
+```
 
 PATCH /products/IDPRODUTO <br/>
 Editando um produto existente <br/>
 
 PATCH /products/IDPRODUTO <br/>
+
+```json
 {
-"product_Name": "Pizza mussarela",<br/>
-"price": 36,<br/>
-"userId": Id user registrado,<br/>
-"image":"https://static7.depositphotos.com/1011415/743/v/600/depositphotos_7438540-stock-illustration-cheeseburger.jpg"
+  "product_Name": "Pizza mussarela",
+  "price": 36,
+  "userId": "Id user registrado",
+  "image": "https://static7.depositphotos.com/1011415/743/v/600/depositphotos_7438540-stock-illustration-cheeseburger.jpg"
 }
+```
 
 Deletar um produto
 
-DELETE /products/IDPRODUTO <br/>
+`DELETE /products/IDPRODUTO `
+
+```json
 {
-auth: Bearer
+  "auth": "Bearer"
 }
+```
 
 Todos os produtos
 GET /products <br/>
 
+```json
 {
-auth: Bearer
+  "auth": "Bearer"
 }
+```
