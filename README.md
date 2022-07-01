@@ -66,11 +66,18 @@ Deletar um produto
 }
 ```
 
-Todos os produtos
+Todos os produtos<br/>
 `GET /products `
 
 ```json
 {
   "auth": "Bearer"
+}
+
+{
+  "product_Name": "Pizza mussarela",
+  "price": 20,
+  "userId": "Id user registrado",
+  "image": "https://static7.depositphotos.com/1011415/743/v/600/depositphotos_7438540-stock-illustration-cheeseburger.jpg"
 }
 ```
